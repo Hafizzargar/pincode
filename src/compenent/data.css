@@ -1,0 +1,22 @@
+.di{
+    margin-inline: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.in_di{
+    border: 1px solid blue;
+    padding: 10px;
+}
+.in_di:hover{
+    border: 1px solid rgb(89, 255, 0);
+    padding: 11px;
+    cursor: pointer;
+}
+.fil{
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 40px;
+    font-size: 30px;
+}

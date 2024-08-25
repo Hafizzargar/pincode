@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+
+label {
+  display: block;
+  width: auto;
+  height: auto;
+  margin-top: 33px;
+  margin-left: 41px;
+  font-family: 'Inter', sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  color: #000000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+button{
+  width: 303px;
+height: 67px;
+top: 211px;
+left: 41px;
+gap: 0px;
+border-radius: 10px 0px 0px 0px;
+opacity: 0px;
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+line-height: 29.05px;
+text-align: left;
+background-color: #000000;
+color: white;
+text-align: center;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+}
+ */
+
+ body {
+  font-family: 'Roboto', sans-serif;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: left;
+}
+
+label {
+  display: block;
+  width: auto;
+  height: auto;
+  margin-top: 33px;
+  margin-left: 41px;
+  font-family: 'Inter', sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.main_input {
+  width: 1408px;
+  height: 85px;
+  margin-top: 10px;
+  margin-left: 41px;
+  border-radius: 10px;
+  border: 3px solid #000000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 37.5px;
+  padding-left: 10px;
+}
+
+button {
+  width: 303px;
+  height: 67px;
+  margin-top: 20px;
+  margin-left: 41px;
+  border-radius: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.05px;
+  background-color: #000000;
   color: white;
+  text-align: center;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.dis{
+  color: red;
+  margin-inline: 60px
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
 }

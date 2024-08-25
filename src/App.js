@@ -1,24 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
+import { Route ,Routes,Link } from 'react-router-dom';
+
+import { useState,useEffect } from 'react';
+import Data from './compenent/data';
+import High from './compenent/high';
+
+
 
 function App() {
+  const [val,setval]=useState("");
+  const [clk,setclk]=useState(false);
+
+
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <High val={val} setval={setval}/>
+  
+    
+    
+    <Routes>
+      <Route path='data' element={<Data val={val}/>}/>
+    </Routes>
+
+    </>
+    
+   
   );
 }
 

@@ -1,0 +1,41 @@
+label {
+    display: block;
+    width: auto;
+    height: auto;
+    margin-top: 33px;
+    margin-left: 41px;
+    font-family: 'Inter', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: #000000;
+  }
+  
+  .main_input {
+    width: 1408px;
+    height: 85px;
+    margin-top: 10px;
+    margin-left: 41px;
+    border-radius: 10px;
+    border: 3px solid #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37.5px;
+    padding-left: 10px;
+  }
+  
+  button {
+    width: 303px;
+    height: 67px;
+    margin-top: 20px;
+    margin-left: 41px;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
