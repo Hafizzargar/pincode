@@ -23,9 +23,12 @@ function High(props) {
         value={val}
         onChange={abc}
       />
+       <Link to="/data">
+        <button>Lookup</button>
+      </Link>
     
      
-      {/* npm */}
+      
     </div>
   );
 }
